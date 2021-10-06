@@ -8,9 +8,7 @@ namespace ProductServiceApp.Models
     {
         public string Category { get; set; }
         public string Product { get; set; }
-
         public int MemoryCapacity { get; set; }
-
         public float Display { get; set; }
          
     }

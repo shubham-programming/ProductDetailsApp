@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProductServiceApp.ProductBLL
+namespace ProductServiceApp.ProductService
 {
-    public interface IProductBLL
+    public interface IProductsService
     {
         int InsertLaptopDetails(List<LaptopModel> Laptops);
 

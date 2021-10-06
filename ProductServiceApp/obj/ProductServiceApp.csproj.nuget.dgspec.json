@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NM Bhatnagar\\source\\repos\\ProductServiceApp\\ProductServiceApp\\ProductServiceApp.csproj": {}
+    "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NM Bhatnagar\\source\\repos\\ProductServiceApp\\ProductServiceApp\\ProductServiceApp.csproj": {
+    "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NM Bhatnagar\\source\\repos\\ProductServiceApp\\ProductServiceApp\\ProductServiceApp.csproj",
+        "projectUniqueName": "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
         "projectName": "ProductServiceApp",
-        "projectPath": "C:\\Users\\NM Bhatnagar\\source\\repos\\ProductServiceApp\\ProductServiceApp\\ProductServiceApp.csproj",
-        "packagesPath": "C:\\Users\\NM Bhatnagar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NM Bhatnagar\\source\\repos\\ProductServiceApp\\ProductServiceApp\\obj\\",
+        "projectPath": "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
+        "packagesPath": "C:\\Users\\shivangi\\.nuget\\packages\\",
+        "outputPath": "D:\\ProductDetailsApp\\ProductServiceApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NM Bhatnagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shivangi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,18 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"

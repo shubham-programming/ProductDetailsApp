@@ -6,10 +6,10 @@ using System.Text;
 
 namespace ProductServiceApp.ProductBLL
 {
-    public class ProductBLL : IProductBLL
+    public class ProductsRepository : IProductsRepository
     {
         private readonly IProductsDataAccess _productsDataAccess;
-        public ProductBLL (IProductsDataAccess productsDataAccess)
+        public ProductsRepository (IProductsDataAccess productsDataAccess)
         {
             _productsDataAccess = productsDataAccess;
         }
