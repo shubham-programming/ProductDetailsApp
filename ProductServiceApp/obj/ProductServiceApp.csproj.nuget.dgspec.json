@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {}
+    "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {}
   },
   "projects": {
-    "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {
+    "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
+        "projectUniqueName": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
         "projectName": "ProductServiceApp",
-        "projectPath": "D:\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
-        "packagesPath": "C:\\Users\\shivangi\\.nuget\\packages\\",
-        "outputPath": "D:\\ProductDetailsApp\\ProductServiceApp\\obj\\",
+        "projectPath": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
+        "packagesPath": "C:\\Users\\NM Bhatnagar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shivangi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NM Bhatnagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +47,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",

@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceAppTests\\ProductServiceAppTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceAppTests\\ProductServiceAppTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceAppTests\\ProductServiceAppTests.csproj",
+        "projectName": "ProductServiceAppTests",
+        "projectPath": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceAppTests\\ProductServiceAppTests.csproj",
+        "packagesPath": "C:\\Users\\NM Bhatnagar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceAppTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NM Bhatnagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {
+                "projectPath": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
+        "projectName": "ProductServiceApp",
+        "projectPath": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\ProductServiceApp.csproj",
+        "packagesPath": "C:\\Users\\NM Bhatnagar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NM Bhatnagar\\Desktop\\ProductsApp\\ProductDetailsApp\\ProductServiceApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NM Bhatnagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -10,5 +10,7 @@ namespace ProductServiceApp.ProductService
         int InsertLaptopDetails(List<LaptopModel> Laptops);
 
         int InsertDesktopDetails(List<DesktopModel> Desktops);
+
+        void ReadProductDetailsFromConsole();
     }
 }

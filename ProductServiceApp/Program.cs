@@ -1,29 +1,19 @@
 ﻿using System;
-using ProductServiceApp.Constants;
+using Microsoft.Extensions.DependencyInjection;
+using ProductServiceApp.Constant;
 using ProductServiceApp.Models;
+using ProductServiceApp.ProductService;
 
 namespace ProductServiceApp
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
-            string continueInput = Variables.ContinueInput;
-            while(continueInput.ToUpper().Equals(Variables.ContinueInput))
-            {
-                Console.WriteLine("Enter Product Category");
-                string productCategory = Console.ReadLine();
-                switch(productCategory)
-                {
-                    case Variables.LaptopCategory:
-                        ProductDetailsModel laptopDetails = new LaptopModel();
-                        break;
-                    default:
-                        break;
-
-                }
-            }
+            Startup startup = new Startup();
+            startup.Configure();
+            var productService = startup.services.BuildServiceProvider().GetService<IProductsService>();
+            productService.ReadProductDetailsFromConsole();
         }
     }
 }

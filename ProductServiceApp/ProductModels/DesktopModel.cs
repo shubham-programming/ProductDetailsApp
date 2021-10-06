@@ -4,12 +4,14 @@ using System.Text;
 
 namespace ProductServiceApp.Models
 {
-    public class DesktopModel
+    public class DesktopModel : ProductDetailsModel
     {
-        public List<string> PerformanceOptions { get; set; }
+        public string PerformanceOptions { get; set; }
 
         public int SSDStorage { get; set; }
 
         public PriceDetailsModel PriceDetails { get; set; }
+
+        public DesktopModel(string Category) : base (Category){ }
     }
 }

@@ -6,6 +6,9 @@ using System.Text;
 
 namespace ProductServiceApp.DataAccess
 {
+    /// <summary>
+    /// DataAccess class for products
+    /// </summary>
     public class ProductsDataAccess : IProductsDataAccess
     {
         private string _connectionString { get; set; }
@@ -14,6 +17,11 @@ namespace ProductServiceApp.DataAccess
             _connectionString = connectionString;
         }
 
+        /// <summary>
+        /// Method to insert Laptop Category Products in Database
+        /// </summary>
+        /// <param name="LaptopDetails"></param>
+        /// <returns></returns>
         public int InsertLaptopCategoryProducts(List<LaptopModel> LaptopDetails)
         {
             int count = 0; // count of records inserted through List of Laptop Model
@@ -26,6 +34,11 @@ namespace ProductServiceApp.DataAccess
             return count;
         }
 
+        /// <summary>
+        /// Method to insert Desktop Category Products in Database
+        /// </summary>
+        /// <param name="LaptopDetails"></param>
+        /// <returns></returns>
         public int InsertDesktopCategoryProducts(List<DesktopModel> DesktopDetails)
         {
             int count = 0; // count of records inserted through List of Laptop Model
